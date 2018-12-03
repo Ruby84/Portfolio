@@ -1,0 +1,159 @@
+body {
+    background-color: gray;
+    padding: 20px;
+}
+.container {
+  background-color: gray;
+}
+
+hr {
+    min-width: 85%; 
+    background-color: #a1a1a1 !important; 
+    height: 1px;
+}
+
+.float-right {
+    float: right;
+}
+
+#img1 {
+    opacity: 0.5;
+    border-radius: 50%;
+}
+
+article {
+    font-size: 2vw;
+}
+
+h5 {
+    font-size: 2.5vw;
+}
+
+h1,h3 {
+    font-size: 3vw;
+}
+
+.titleName {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+  
+.fa:hover {
+      opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: #ffffff;
+}
+  
+.fa-twitter {
+    background: #55acee;
+    color: #ffffff;
+}
+
+.fa-github {
+    background: #000000;
+    color: #ffffff;
+}
+.Gray_background {
+  background: gray;
+}
+
+.larger-image {
+    width: 200px;
+  height: 200px;
+  }
+
+.navbar {
+  z-index: 9999;
+  background-color: black;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.7);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+#twoam {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://raw.githubusercontent.com/Ruby84/Portfolio-Site/master/Portfolio_Images/10269398_10152221114982335_9132863486734124844_n.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgb(28, 28, 28);
+  color: white;
+}
+
+.tagline1 {
+    font-family: 'lato', sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+    font-style: italic;
+    color: #bbb;
+    text-align: left;
+    padding-top: 70px;
+    text-shadow: 1px 1px black;
+}
+
+.tagline2 {
+    font-family: 'lato', sans-serif;
+    font-size: 3em;
+    letter-spacing: 7px;
+    line-height: 0.95em;
+    font-weight: 100;
+    color: white;
+    text-align: left;
+    text-shadow: 1px 1px black;
+    padding-top: 10px;
+}
+.tagline3b {
+    padding-left: 30px;
+}
+.tagline3a, .tagline3b, .tagline3c {
+    font-family: 'courier', sans-serif;
+    font-size: 1.5em;
+    font-style: italic;
+    color: WHITE;
+    text-align: left;
+    line-height: 1em;
+    text-shadow: 1px 1px black;
+}
+
+.udacity {
+  width: 30px;
+}
+
+.navbar-brand>img {
+  display: inline;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-toggle {
+  border: 1px solid white;
+}
+.navbar-toggle, .icon-bar {
+    border: 1px solid white;
+}
+.card-deck {
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    grid--gap: 10px 20px;
+    min-height: 300px;
+    width: 100%;
+}
